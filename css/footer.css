@@ -1,0 +1,41 @@
+footer {
+  text-align: center;
+  background-color: #1a1a1a; /* لون خلفية داكنة وفاخرة */
+  border-top-left-radius: 15px; /* زوايا منحنية بأناقة */
+  border-top-right-radius: 15px; 
+  padding: 2rem 1rem; /* حشوة أكبر لإعطاء مساحة */
+  margin-top: 4rem; /* زيادة المسافة بين الفوتر والعناصر التي فوقه */
+  color: #fff; /* لون النص أبيض ليظهر بوضوح على الخلفية الداكنة */
+  font-size: 18px; /* حجم خط مناسب */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* تأثير ظل لإضفاء الفخامة */
+  position: relative; /* لتحديد موضع الأيقونات بالنسبة للفوتر */
+}
+
+footer span {
+  color: #ddd; /* لون فاتح للنص */
+  text-transform: uppercase; /* تحويل النص إلى حروف كبيرة */
+  font-weight: bold; /* جعل النص غامق */
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem; /* مسافة بين النص والأيقونات */
+}
+
+footer .social-icons a {
+  color: #fff; /* لون الأيقونات أبيض */
+  font-size: 28px; /* حجم الأيقونات أكبر قليلاً */
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease; /* إضافة تأثير على التحويل والتلوين */
+}
+
+footer .social-icons a:hover {
+  color: #f39c12; /* تغيير اللون عند التمرير إلى اللون الذهبي */
+  transform: scale(1.2); /* تكبير الأيقونة عند التمرير */
+}
+
+footer .social-icons a:active {
+  transform: scale(1); /* عودة الحجم الأصلي عند الضغط */
+}
