@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="تسجيل الدخول إلى متجر العطار للعسل الطبيعي - عسل أصلي ومضمون في الإمارات.">
-  <meta name="keywords" content="العطار عسل, متجر عسل, عسل طبيعي, عسل الإمارات, Alattar Honey">
+  <meta name="description" content="Login to Alattar Honey - Premium Natural Honey Products in the UAE.">
+  <meta name="keywords" content="Alattar Honey, natural honey, UAE honey shop, organic honey, buy honey online">
   <meta name="author" content="Alattar Honey">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>تسجيل الدخول | Alattar Honey</title>
+  <meta property="og:title" content="Login | Alattar Honey">
+  <meta property="og:description" content="Login to your Alattar Honey account and explore premium honey products.">
+  <meta property="og:image" content="https://www.alattarhoney.com/logo.png">
+  <meta property="og:url" content="https://www.alattarhoney.com/login.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://www.alattarhoney.com/login.html">
+  <title>Login | Alattar Honey</title>
   <style>
     * {
       box-sizing: border-box;
@@ -21,6 +27,7 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+      direction: ltr;
     }
     .login-container {
       background-color: #fff;
@@ -73,6 +80,15 @@
       display: block;
       margin-top: 0.5rem;
     }
+    .lang-switch {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #777;
+    }
+    .lang-switch a {
+      text-decoration: underline;
+      color: #444;
+    }
     .footer-text {
       margin-top: 2rem;
       font-size: 0.8rem;
@@ -82,19 +98,23 @@
 </head>
 <body>
   <div class="login-container">
-    <h1>تسجيل الدخول</h1>
-    <p>ادخل بياناتك للوصول إلى حسابك في متجر العطار للعسل</p>
+    <h1>Login</h1>
+    <p>Access your account at Alattar Honey</p>
     <form action="dashboard.html" method="POST">
-      <input type="email" name="email" placeholder="البريد الإلكتروني" required>
-      <input type="password" name="password" placeholder="كلمة المرور" required>
-      <button type="submit">دخول</button>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Login</button>
     </form>
     <div class="extra-links">
-      <a href="forgot-password.html">هل نسيت كلمة المرور؟</a>
-      <a href="index.html">العودة إلى الصفحة الرئيسية</a>
+      <a href="forgot-password.html">Forgot Password?</a>
+      <a href="register.html">Create New Account</a>
+      <a href="https://www.alattarhoney.com">Back to Home</a>
+    </div>
+    <div class="lang-switch">
+      <span>اللغة: <a href="login-ar.html">العربية</a></span>
     </div>
     <div class="footer-text">
-      &copy; 2025 AlattarHoney.com - جميع الحقوق محفوظة
+      &copy; 2025 AlattarHoney.com - All rights reserved
     </div>
   </div>
 </body>
